@@ -1,0 +1,11 @@
+{"level":"info","message":"API booted successfully","timestamp":"2016-10-23T16:10:48.711Z"}
+{"level":"info","message":"API booted successfully:  3001","timestamp":"2016-10-23T16:11:22.788Z"}
+{"message":"APIError","stack":"Error: ENOENT: no such file or directory, stat '/Users/mehmettamturk/projects/movie/api/src/vendor/www/index.html'\n    at Error (native)","errno":-2,"code":"ENOENT","syscall":"stat","path":"/Users/mehmettamturk/projects/movie/api/src/vendor/www/index.html","expose":false,"statusCode":404,"status":404,"level":"error","timestamp":"2016-10-23T16:11:29.891Z"}
+{"message":"APIError","stack":"Error: ENOENT: no such file or directory, stat '/Users/mehmettamturk/projects/movie/api/src/vendor/www/index.html'\n    at Error (native)","errno":-2,"code":"ENOENT","syscall":"stat","path":"/Users/mehmettamturk/projects/movie/api/src/vendor/www/index.html","expose":false,"statusCode":404,"status":404,"level":"error","timestamp":"2016-10-23T16:11:30.370Z"}
+{"level":"info","message":"API booted successfully:  3001","timestamp":"2016-10-23T16:15:59.555Z"}
+{"message":"APIError","stack":"Error: ENOENT: no such file or directory, stat '/Users/mehmettamturk/projects/movie/api/src/vendor/www/index.html'\n    at Error (native)","errno":-2,"code":"ENOENT","syscall":"stat","path":"/Users/mehmettamturk/projects/movie/api/src/vendor/www/index.html","expose":false,"statusCode":404,"status":404,"level":"error","timestamp":"2016-10-23T16:16:04.298Z"}
+{"level":"info","message":"API booted successfully:  3001","timestamp":"2016-10-23T16:17:00.912Z"}
+{"level":"info","message":"API booted successfully:  3001","timestamp":"2016-10-23T16:19:13.631Z"}
+{"level":"info","message":"API booted successfully:  3001","timestamp":"2016-10-23T16:23:57.707Z"}
+{"level":"info","message":"API booted successfully:  3001","timestamp":"2016-10-23T16:24:43.880Z"}
+{"level":"info","message":"API booted successfully:  3001","timestamp":"2016-10-23T16:31:52.448Z"}

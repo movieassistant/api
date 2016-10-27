@@ -1,0 +1,38 @@
+doctype html
+html
+    head
+        title Hot Deals Panel
+        meta(charset='UTF-8')
+        meta(content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', name='viewport')
+        link(rel='styleSheet', href='/vendor/admin/css/jquery.datetimepicker.css')
+        link(rel='styleSheet', href='/vendor/admin/css/alertify.css')
+        link(rel='styleSheet', href='/vendor/admin/css/semantic/semantic.min.css')
+        link(rel='styleSheet', href='/vendor/admin/css/semantic/menu.min.css')
+        link(rel='styleSheet', href='/vendor/admin/css/menu.css')
+        link(rel='styleSheet', href='/vendor/admin/components/grid/style.css')
+        link(rel='styleSheet', href='/vendor/admin/components/announcements/style.css')
+        link(rel='styleSheet', href='/vendor/admin/components/users/style.css')
+        link(rel='styleSheet', href='/vendor/admin/components/deals/style.css')
+        link(rel='styleSheet', href='/vendor/admin/components/companies/style.css')
+        link(rel='styleSheet', href='/vendor/admin/components/sectors/style.css')
+        link(rel='styleSheet', href='/vendor/admin/components/modals/uploader/style.css')
+        link(rel='styleSheet', href='/vendor/lib/textAngular/dist/textAngular.css')
+        link(rel='styleSheet', href='/vendor/lib/font-awesome/css/font-awesome.min.css')
+        link(rel='styleSheet', href='/vendor/lib/ng-dialog/css/ngDialog.css')
+        link(rel='styleSheet', href='/vendor/lib/ng-dialog/css/ngDialog-theme-default.css')
+        link(rel='styleSheet', href='/vendor/lib/jquery-ui/themes/smoothness/jquery-ui.css')
+    body.ng-cloak(ng-app='panel')
+        script.
+            __ENV_CONFIG__ = {
+                root: {
+                    api: '#{API_URL}',
+                    site: '#{SITE_URL}',
+                    plain_api: '#{API_URL_PLAIN}'
+                },
+                permissions: !{JSON.stringify(PERMISSIONS)},
+                permissions_array: !{JSON.stringify(PERMISSIONS_ARRAY)}
+            };
+            __USER__ = !{JSON.stringify(user)};
+        include ./menu
+        div(ui-view="")
+        include ./scripts

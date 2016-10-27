@@ -1,0 +1,45 @@
+{
+  "name": "semanticular",
+  "description": "Angular.js directives for Semantic UI Modules",
+  "version": "0.0.9",
+  "authors": [
+    "Deniz Gurkaynak <dgurkaynak@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dgurkaynak/semanticular.git"
+  },
+  "license": "MIT",
+  "main": [
+    "dist/semanticular.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1"
+  },
+  "devDependencies": {
+    "angular": "~1.4.3",
+    "semantic": "~2.0.3"
+  },
+  "keywords": [
+    "semantic",
+    "semantic-ui",
+    "angular"
+  ],
+  "homepage": "https://github.com/dgurkaynak/semanticular",
+  "_release": "0.0.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.9",
+    "commit": "0072e16969799934fcbb65354078e638fe855a42"
+  },
+  "_source": "https://github.com/dgurkaynak/semanticular.git",
+  "_target": "0.0.9",
+  "_originalSource": "semanticular"
+}

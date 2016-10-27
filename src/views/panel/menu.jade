@@ -1,0 +1,10 @@
+#menu(ng-controller='MenuController')
+    .ui.stackable.menu.inverted
+        a.header.item(href='/admin/', ng-click='activeIndex = 0')
+            | HotDeals
+        a.item.blue(ng-href='/admin/#/{{item.path}}', ng-repeat='item in items', ng-click='select($index)', ng-class='{active: item.active}')
+            i.icon(ng-class='item.icon')
+            | {{item.name}}
+        .right.menu
+            a.item(href='/api/users/logout')
+                i.icon.power

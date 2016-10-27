@@ -1,0 +1,14 @@
+{
+    "http": {
+        "port": 3002
+    },
+    "mongo": {
+      "host": "localhost",
+      "db": "xin1-prod"
+    },
+    "SITE_URL": "http://www.indiringo.com",
+    "API_URL": "http://www.indiringo.com",
+    "mandrill": {
+        "key": ""
+    }
+}

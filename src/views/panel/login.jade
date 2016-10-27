@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        title Hot Deals Panel
+        meta(charset='UTF-8')
+        meta(content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', name='viewport')
+        link(rel='styleSheet', href='/vendor/admin/css/semantic/semantic.min.css')
+        link(rel='styleSheet', href='/vendor/admin/css/login.css')
+        script(type='text/javascript').
+            API_URL = '#{API_URL}';
+            SITE_URL = '#{SITE_URL}';
+            NOT_AUTHORIZED = '#{notAuthorized}'
+    body.login.dimmable
+        .ui.middle.aligned.center.aligned.grid
+            .column
+                h2.ui.teal.image.header
+                    .content Hot Deals
+                form.ui.large.form
+                    .ui.stacked.segment
+                        .field
+                            .ui.left.icon.input
+                                i.user.icon
+                                input(type="text", name="email", placeholder="Mail Adresi")
+                        .field
+                            .ui.left.icon.input
+                                i.lock.icon
+                                input(type="password", name="password", placeholder="Parola")
+                        .ui.fluid.large.teal.submit.button Giriş
+                        a.ui.fluid.large.teal.facebook.button(href="/api/users/login/facebook", style="margin-top: 5px;") Facebook ile Giriş
+                    .ui.error.message
+        script(src='/vendor/lib/jquery/dist/jquery.min.js')
+        script(src='/vendor/lib/semantic/dist/semantic.min.js')
+        script(src='/vendor/admin/login.js')
